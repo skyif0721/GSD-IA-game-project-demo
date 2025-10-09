@@ -118,6 +118,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -327,6 +328,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -358,6 +360,14 @@
 "Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs"
 "Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs"
 "Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs"
+"Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs"
+"Assets/SampleScenes/Menu/Scripts/PauseMenu.cs"
+"Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs"
+"Assets/SampleScenes/Scripts/CameraSwitch.cs"
+"Assets/SampleScenes/Scripts/LevelReset.cs"
+"Assets/SampleScenes/Scripts/ParticleSceneControls.cs"
+"Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs"
+"Assets/SampleScenes/Scripts/SlowMoButton.cs"
 -langversion:9.0
 
 /deterministic
